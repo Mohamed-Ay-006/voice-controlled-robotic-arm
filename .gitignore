@@ -1,0 +1,20 @@
+# Arduino build output
+build/
+*.bin
+*.elf
+*.map
+*.o
+*.d
+
+# Keep the verified ATmega HEX artifact
+!firmware/atmega32a/build/
+firmware/atmega32a/build/*
+!firmware/atmega32a/build/robot_arm_atmega32a.hex
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
